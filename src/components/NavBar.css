@@ -1,0 +1,26 @@
+.NavBar {
+    display: flex;
+    width: 70px;
+    margin-top: 0px;
+    padding-top: 6em;
+    padding-bottom: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-top: 0px;
+    left: 0;
+    color: rgb(156, 181, 234);
+    background-color: rgba(4, 4, 22, 0.839);
+    position: fixed;
+    font-size: small;
+    font-family: 'Satisfy', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.NavBar ul {
+    
+    padding-left: 0px;
+    margin-left: 7px;
+    border-top: 0px;
+}
+.NavBar ul li {
+    margin-bottom: 3px;
+}

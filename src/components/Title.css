@@ -1,6 +1,7 @@
 .Title { 
     box-sizing: border-box;
     align-items: baseline;
+    top: 0;
     display: flex;
     width: 100%;
     justify-content: center;
