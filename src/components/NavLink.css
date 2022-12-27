@@ -1,15 +1,15 @@
-.NavBar {
+.NavLink {
+    box-sizing: border-box;
     display: flex;
     width: 85px;
     top: 0;
-    justify-content: center;
     margin-top: 0px;
     padding-top: 1em;
     padding-bottom: 100%;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 15px;
+    margin-right: 0px;
     border-top: 0px;
-    left: 0;
+    right: 0px;
     color: rgb(156, 181, 234);
     background-color: rgba(4, 4, 22);
     position: fixed;
@@ -17,12 +17,12 @@
     font-family: 'Satisfy', cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
 }
-.NavBar ul {
+.NavLink ul {
     
     padding-left: 0px;
+    margin-left: 0px;
     border-top: 0px;
-    list-style: none;
 }
-.NavBar ul li {
+.NavLink ul li {
     margin-bottom: 3px;
 }
