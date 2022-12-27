@@ -1,10 +1,25 @@
 .Title { 
     box-sizing: border-box;
+    align-content: center;
+    height: 55px;
     top: 0;
+    margin-top: 0;
+    padding-top: 0;
     display: flex;
     width: 100%;
     justify-content: center;
     position: fixed;
     color: rgb(156, 181, 234);
     background-color: rgba(4, 4, 22, 0.839);
+    font-family: 'Satisfy', cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+.Title h1 {
+    margin-top: 0;
+    padding-top: 3px;
+}
+@media (max-width: 600px) {
+    .Title {
+        padding-right: 30px;
+        padding-left: 100px;
+      }
 }

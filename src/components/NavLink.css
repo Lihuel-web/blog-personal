@@ -5,7 +5,7 @@
     top: 0;
     margin-top: 0px;
     padding-top: 1em;
-    padding-bottom: 100%;
+    padding-bottom: 200%;
     padding-left: 15px;
     margin-right: 0px;
     border-top: 0px;
@@ -16,6 +16,11 @@
     font-size: small;
     font-family: 'Satisfy', cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
+}
+@media (max-width: 600px) {
+    .NavLink{
+      display: none;
+    }
 }
 .NavLink ul {
     
